@@ -1,6 +1,5 @@
 
 
-
 body {
   font-family: 'Noto Sans Japanese', serif;
   text-rendering: optimizeLegibility;
@@ -9,23 +8,58 @@ body {
   -moz-font-feature-settings: "liga" on;
 }
 
-table, td {
-  border: 1px #000000 solid;
-  border-collapse: collapse;
-  padding: 10px 20px;
+.title{
+	font-weight:normal;
+	font-size:150%;
+	text-align:center;
+	line-height:1;
+	margin:78px 0;
 }
 
-.outer {
-  width: 920px;  
-  height: 580px;  
-  position: absolute;  
-  top: 50%;  
-  left: 50%;  
-  margin: -310px 0 0 -480px;  
-  padding: 20px;  
+.contentWrapper{
+	width:1140px;
+	margin:0 auto 60px;
+	position:relative;
+	clear:both;
+}
+.contentWrapper:after{
+	content:"";
+	display:block;
+	clear:both;
+}	
+.contentWrapper p,
+.modalcontent p{
+	line-height:1.8;
 }
 
-.inner{
-  display: flex;
-  justify-content: center;
+#company table{
+	width:720px;
+	margin:0 auto;
+	border-top:1px solid #CCC;
+}	
+#company table th{
+	font-weight:normal;
+	white-space:nowrap;
 }
+#company table th,
+#company table td{
+	padding:1.6em;
+	border-bottom:1px solid #CCC;
+}
+
+@media screen and (max-width: 720px){
+	#company table{
+		width:auto;
+	}	
+	#company table th,
+	#company table td{
+		padding:1.6em 10px;
+	}
+	.contentWrapper{
+		width:auto;
+		margin:0 7px 60px;
+	}
+	.contentWrapper.content-top{
+		padding-top:5px;
+	}
+
