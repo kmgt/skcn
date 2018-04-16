@@ -85,7 +85,12 @@ body {
 	}
 	#policy {
 		width:auto;
-	}	
+		margin:0 7px 60px;
+	}
+	#policy p{
+		width:auto;
+		margin:0 30px 30px;
+	}
 	.contentWrapper{
 		width:auto;
 		margin:0 7px 60px;
@@ -94,3 +99,4 @@ body {
 		padding-top:5px;
 	}
 }
+
