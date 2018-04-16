@@ -16,6 +16,28 @@ body {
 	margin:78px 0;
 }
 
+.title a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.title a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+.title a:visited {
+	color: #000000;
+}
+
+.sub{
+	font-weight:normal;
+	font-size:120%;
+	text-align:center;
+	line-height:1;
+	margin:39px 0;
+}
+
 .contentWrapper{
 	width:1140px;
 	margin:0 auto 60px;
@@ -27,13 +49,13 @@ body {
 	display:block;
 	clear:both;
 }	
-.contentWrapper p,
+
 .modalcontent p{
 	line-height:1.8;
 }
 
 #company table{
-	width:720px;
+	width:740px;
 	margin:0 auto;
 	border-top:1px solid #CCC;
 }	
@@ -47,7 +69,13 @@ body {
 	border-bottom:1px solid #CCC;
 }
 
-@media screen and (max-width: 720px){
+#policy {
+	width:740px;
+	margin:0 auto;
+	border-top:1px solid #CCC;
+}
+
+@media screen and (max-width: 740px){
 	#company table{
 		width:auto;
 	}	
@@ -55,6 +83,9 @@ body {
 	#company table td{
 		padding:1.6em 10px;
 	}
+	#policy {
+		width:auto;
+	}	
 	.contentWrapper{
 		width:auto;
 		margin:0 7px 60px;
@@ -62,4 +93,3 @@ body {
 	.contentWrapper.content-top{
 		padding-top:5px;
 	}
-
