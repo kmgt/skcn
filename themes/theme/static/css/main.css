@@ -36,6 +36,7 @@ img {
 }
 
 .sub{
+	width:740px;
 	font-weight:normal;
 	font-size:120%;
 	text-align:center;
@@ -77,7 +78,7 @@ img {
 #policy {
 	width:740px;
 	margin:0 auto;
-	padding:1.6em;
+	padding:1.6em 0em;
 	border-top:1px solid #CCC;
 }
 
@@ -91,11 +92,16 @@ img {
 	}
 	#policy {
 		width:auto;
+		padding:1.6em 10px;
 		margin:0 7px 60px;
 	}
 	#policy p{
 		width:auto;
 		margin:0 30px 30px;
+	}
+	.sub{
+		width:auto;
+		margin:0 7px 60px;
 	}
 	.contentWrapper{
 		width:auto;
